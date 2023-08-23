@@ -28,6 +28,17 @@ main {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .parent-container {
+    display: block;
+  }
+}
 .content-item {
   border: solid 3px rgb(238, 204, 204);
   flex-basis: 25%;
@@ -54,18 +65,6 @@ h2::before {
   color: rgb(239, 111, 139);
 }
  
-@media screen and (max-width: 768px) {
-  h2 {
-    font-size: 30px;
-  }
-  p {
-    font-size: 25px;
-  }
-  .parent-container {
-    display: block;
-  }
-}
-
 footer {
   background-color: rgb(244, 79, 79);
   text-align: center;
